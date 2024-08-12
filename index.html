@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>TODO App</title>
+</head>
+
+<body>
+  <center>
+    <h1>TODO App</h1>
+    <div id="tasks">
+      <!-- Task list will be displayed here -->
+    </div>
+    <input type="text" id="taskInput" placeholder="Enter task...">
+    <input type="date" id="dueDateInput" placeholder="Due date...">
+    <button  onclick="addTask()">Add Task</button>
+    <button onclick="showAllTasks()">All Tasks</button>
+
+    <input type="text" id="searchInput" placeholder="Search tasks...">
+    <button onclick="searchTasks()">Search</button>
+    <script src="script.js"></script>
+  </center>
+</body>
+
+</html>
